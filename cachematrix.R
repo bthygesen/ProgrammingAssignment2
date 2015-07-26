@@ -50,7 +50,10 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-## Th
+## Function cacheSolve inverts a cached matrix
+## If matrix has already been inverted then 
+## inverted matrix is pulled from internal
+## cached structure
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
 +        m <- x$getinv()
