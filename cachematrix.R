@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-## Cache a matrix - funciton checks if matrix 
+## Cache a matrix - function checks if matrix 
 ## has already been inverted previouly
 makeCacheMatrix <- function(x = matrix()) {
 +        m <- NULL
